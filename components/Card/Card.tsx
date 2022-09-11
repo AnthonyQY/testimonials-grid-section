@@ -3,7 +3,7 @@ import styles from "./Card.module.scss";
 export default function Card() {
   return (
     <div className={styles.container}>
-      <div>Placeholder</div>
+      <h1>Placeholder</h1>
     </div>
   );
 }
