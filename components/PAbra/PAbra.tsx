@@ -1,7 +1,7 @@
 import ImageAvatar from "./image-patrick.jpg";
 import styles from "./PAbra.module.scss";
 
-export default function () {
+export default function PAbra() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -20,12 +20,12 @@ export default function () {
         Getting guidance from them and learning from their experiences was easy.
       </h1>
       <p className={styles.description}>
-        “The staff seem genuinely concerned about my progress which I find
+        &quot;The staff seem genuinely concerned about my progress which I find
         really refreshing. The program gave me the confidence necessary to be
         able to go out in the world and present myself as a capable junior
         developer. The standard is above the rest. You will get the personal
         attention you need from an incredible community of smart and amazing
-        people.”
+        people.&quot;
       </p>
     </div>
   );

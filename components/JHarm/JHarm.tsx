@@ -1,7 +1,7 @@
 import ImageAvatar from "./image-jeanette.jpg";
 import styles from "./JHarm.module.scss";
 
-export default function () {
+export default function JHarm() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -19,8 +19,8 @@ export default function () {
         An overall wonderful and rewarding experience
       </h1>
       <p className={styles.description}>
-        “Thank you for the wonderful experience! I now have a job I really
-        enjoy, and make a good living while doing something I love.”
+        &quot;Thank you for the wonderful experience! I now have a job I really
+        enjoy, and make a good living while doing something I love.&quot;
       </p>
     </div>
   );

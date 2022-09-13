@@ -1,7 +1,7 @@
 import ImageAvatar from "./image-jonathan.jpg";
 import styles from "./JWalt.module.scss";
 
-export default function () {
+export default function JWalt() {
   return (
     <div className={styles.container}>
       <div className={styles.header}>
@@ -19,9 +19,9 @@ export default function () {
         The team was very supportive and kept me motivated
       </h1>
       <p className={styles.description}>
-        “I started as a total newbie with virtually no coding skills. I now work
-        as a mobile engineer for a big company. This was one of the best
-        investments I've made in myself.”
+        &quot;I started as a total newbie with virtually no coding skills. I now
+        work as a mobile engineer for a big company. This was one of the best
+        investments I&apos;ve made in myself.&quot;
       </p>
     </div>
   );
