@@ -40,6 +40,9 @@
 
   .jharm {
     grid-column: 1;
+    box-shadow: 62px 44px 133px -77px rgba(130, 130, 130, 0.75);
+    -webkit-box-shadow: 62px 44px 133px -77px rgba(130, 130, 130, 0.75);
+    -moz-box-shadow: 62px 44px 133px -77px rgba(130, 130, 130, 0.75);
   }
 
   .pabra {
@@ -49,5 +52,8 @@
   .kwhit {
     grid-row: 1 / span 2;
     grid-column: 4;
+    box-shadow: 62px 44px 133px -77px rgba(130, 130, 130, 0.75);
+    -webkit-box-shadow: 62px 44px 133px -77px rgba(130, 130, 130, 0.75);
+    -moz-box-shadow: 62px 44px 133px -77px rgba(130, 130, 130, 0.75);
   }
 }
